@@ -102,7 +102,7 @@ class Note
   end
 end
 
-describe NoteSearcher, enhanced: true do
+describe NoteSearcher do
   let(:searcher) { NoteSearcher.new }
 
   describe '#search' do
